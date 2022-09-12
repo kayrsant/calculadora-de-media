@@ -1,0 +1,78 @@
+body {
+  font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif;
+  min-height: 400px;
+  background-color: #add8e6;
+  background-size: 80vh;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: #333;
+}
+
+.color {
+  background-color: #e6e6fa;
+}
+
+.page-title {
+  color:#000000;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color:#000000;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.submitBotao {
+  
+  width:170px;
+  margin:auto;
+  display:block;  
+  color:#fff;
+  font-family: 'open_sansregular';
+  font-size:1.2em;
+  text-align:center;
+  text-decoration:none;
+  text-transform: uppercase;
+  padding: 12px 15px;
+  border-radius:6px;
+  background-color:#59d7dc;
+  transition: transform 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55), background-position 800ms cubic-bezier(0.68, -0.55, 0.265, 1.55), box-shadow 500ms linear;
+  background-size:contain;
+  background-position: -250px center;
+  background-repeat: no-repeat;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+.submitBotao:hover {
+  transform: scale(1.1);
+  background-position: -60px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.submitBotao:active {
+  transform: scale(1);
+  background-position: 500px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}

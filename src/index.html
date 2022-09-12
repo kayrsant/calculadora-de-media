@@ -1,0 +1,53 @@
+<html>
+  <head>
+    <title> Imersão Dev Alura - Aula 01</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
+      <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+      </a>
+    </header>
+    <main>
+      <div class="container">
+        <section>
+          <h1 class="page-title">Calculadora de Média</h1>
+          <br />
+          <p class="page-subtitle">Descubra a média de todas as suas provas e sua situação. </p>
+        </section>
+        <div class="container2">
+          <article class="color">
+            <fieldset>
+              <legend>Calcula média de Estudante</legend>
+              <label for="estudante">Estudante: </label>
+              <input type="text" id="estudante" name="estudante" placeholder="Estudante" required</>
+              <br />
+              <br />
+              <label for="notaPrimeiroBimestre">Nota 1° Bimestre: </label>
+              <input type="number" id="notaPrimeiroBimestre" name="notaPrimeiroBimestre" placeholder="0" max="10" min="0" step="0.1" required />
+              <br />
+              <br />
+              <label for="notaSegundoBimestre">Nota 2° Bimestre: </label>
+              <input type="number" id="notaSegundoBimestre" name="notaSegundoBimestre" placeholder="0" max="10" min="0" step="0.1" required />
+              <br />
+              <br />
+              <label for="notaTerceiroBimestre">Nota 3° Bimestre: </label>
+              <input type="number" id="notaTerceiroBimestre" name="notaTerceiroBimestre" placeholder="0" max="10" min="0" step="0.1" required />
+              <br />
+              <br />
+              <label for="notaQuartoBimestre">Nota 4° Bimestre: </label>
+              <input type="number" id="notaQuartoBimestre" name="notaQuartoBimestre" placeholder="0" max="10" min="0" step="0.1" required />
+              <br />
+              <br />
+              <input type="submit" value="Calcular" class="submitBotao"></input>
+            </fieldset>
+            <div class="result"></div>
+          </article>
+        </div>
+      </div>
+    </main>
+  </body>
+  <script src="script.js"></script>
+</html>
